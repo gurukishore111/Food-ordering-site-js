@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Dosis',sans-serif;
+}
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+}
+.nav-link{
+    flex: 1;
+
+}
+.nav-logo img{
+    margin-top:-39px;
+
+}
+.banner-title h3 p{
+    font-size:20%;
+}
+.banner-title h3{
+    font-weight: 600;
+}
+
+.nav-link ul{
+    margin-left: 50px;
+    display: inline;
+    
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+.nav-link ul a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 13px;
+   
+}
+.nav-link ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-link ul li:hover::after{
+    width: 100%;
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-link .btn{
+ float: right;
+}
+.banner-title{
+    margin: 80px 130px ;
+    color: #fff;
+}
+.banner-title  h1{
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+.banner-title{
+    margin-top:-29px ;
+}
+.banner-title span{
+    color: yellow;
+}
+.vertical-bar{
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.search-bar{
+    height: 60%;
+    width: 80px;
+}
+.search-bar .fa{
+    margin :45px 23px;
+    display:block;
+    color:#fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.social-bar{
+    height: 35%;
+    width: 80px;
+    background: yellow;
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+.social-bar .fa{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.notification{
+    display: flex;
+    width: 400px;
+    right:0;
+    bottom: 0;
+    position: absolute;
+    background: yellow;
+    align-items: center;
+
+
+}
+.contact{
+    flex-basis: 50%;
+    padding: 10px;
+
+}
+.notification-img{
+    flex-basis: 50%;
+}
+.notification-img img{
+    width: 100%;
+}
+ .btn1{
+          background-color: black;
+          color: yellow;
+          border: 0;
+          outline-style: none;
+          padding: 10px 20px;
+
+}
+.contact i{
+    font-size: 120%;
+    margin-right: 10%;
+}
+.nav-bar .fa{
+    display: none;
+}
+@media  (max-width:700px){
+     .vertical-bar{
+         display:none;
+     }
+     .banner-title{
+         margin: 80px 40px;
+     }
+     .banner-title h1{
+         font-size: 40px;
+     }
+     .notification{
+         width: 100%;
+     }
+     .nav-bar{
+        padding: 10px 30px;
+     }
+     .fa-bars{
+           position: absolute;
+           right: 20px;
+           top:10px;
+
+     }
+     .nav-bar .fa{
+         display: block;
+         color: #fff;
+         margin:10px 25px;
+         font-size: 22px;
+         cursor: pointer;
+     }
+     .nav-link{
+         height: 100vh;
+         width: 200px;
+         background: #000;
+         top: 0;
+         right: -200px;
+         position: absolute;
+         text-align: left;
+         z-index: 2;
+         transition: 0.5s;
+     }
+     .nav-link ul a{
+         display: block;
+
+     }
+     .nav-link .btn{
+         float: none;
+         margin-top:10px ;
+         margin-left: 25px;
+     }
+}
+.banner-title h3 p{
+
+    padding-top: 15%;
+}

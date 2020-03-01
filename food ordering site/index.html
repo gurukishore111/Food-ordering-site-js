@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>
+             food website design
+        </title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="nav-bar">
+
+                  <div class="nav-logo">
+                      <img src="food-drink-logos-10-removebg-preview (2).png" width="170" height="140">
+                  </div>
+                  
+                  <div class="nav-link"  id="nav-link">
+                    <i class="fa fa-close" onclick="closeMenu()"></i>
+                    
+                      <ul>
+                      <a href="index.html"><li>HOME</li></a>
+                      <a href="about.html"><li>ABOUT US</li></a>
+                      <a href="recipe.html"><li>RECIPE</li></a>
+                    </ul>
+                    <button type="button" class="btn">SIGN UP</button> 
+                </div>
+
+                    <i class="fa fa-bars" onclick="showMenu()"></i> 
+            </div>
+        
+                       
+
+
+
+        
+        <div class="banner-title">
+                         <h1>Food<span> Doesn't have a <br>religion</span>.It is a religion.</h1>
+                         <button type="button" class="btn">ORDER NOW!</button> 
+
+
+
+        </div>
+             <div class="vertical-bar">
+                     <div class="search-bar">
+                        <i class="fa fa-th-list" ></i>
+                        <i class="fa fa-search"></i>
+                     </div>
+                     <div class="social-bar">
+                     <i class="fa fa-facebook"></i>
+                     <i class="fa fa-instagram"></i>
+                     <i class="fa fa-pinterest"></i>
+                     <i class="fa fa-twitter"></i>
+                    </div>
+             </div>
+           <div class="notification">
+                <div class="contact">
+                    <i class="fa fa-close" onclick="closeMenu()"></i>
+                    <small><b>Exclusive!</b>  Order now get 50%</small><br>
+                    
+                    <button type="button" class="btn1">ORDER NOW!</button> <br>
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                </div>
+                <div class="notification-img">
+                    <img src="small.jpg">
+                </div>
+                 
+
+
+
+           </div>
+
+
+             </div>
+
+        </div>
+        <script>
+            var show =document.getElementById("nav-link");
+            function showMenu()
+            {
+                show.style.right="0";
+            }
+            function closeMenu()
+            {
+                show.style.right="-200px";
+            }
+
+
+     </script>
+
+
+
+    </body>
+</html>
